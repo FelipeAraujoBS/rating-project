@@ -1,0 +1,37 @@
+.imgContainer{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgContainer img{
+    margin-left: -2%;
+}
+
+.numberContainer{
+    background-color: hsl(213, 25%, 25%);
+    padding: 0 5%;
+    width: 60%;
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 6% auto;
+    border-radius: 50px;
+    color: hsl(25, 97%, 53%);
+}
+
+.thanksContainer{
+    margin-top: 8%;
+    text-align: center;
+    width: 101%
+}
+.thanksContainer h3{
+    font-size: 25px;
+    color: hsl(0, 0%, 100%);
+}
+.thanksContainer p{
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+}

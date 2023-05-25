@@ -1,0 +1,52 @@
+/*header*/
+.submitHeader{
+    height: 18%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.starContainer{
+    background-color: hsl(213, 25%, 25%);
+    display: inline-flex;
+    width: 25px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.star{
+    width: 55%;
+    height: 55%;
+}
+
+/*info*/
+.submitInfo{
+    height: 35%;
+}
+
+.infoContainer h3{
+    font-size: 22px;
+    color: hsl(0, 0%, 100%);
+}
+.infoContainer p{
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+}
+
+
+
+/*form*/
+.submitForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media (max-width: 375px){
+    
+}
