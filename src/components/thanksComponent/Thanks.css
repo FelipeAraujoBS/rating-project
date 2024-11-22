@@ -35,3 +35,8 @@
     color: hsl(217, 12%, 63%);
     font-size: 15px;
 }
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

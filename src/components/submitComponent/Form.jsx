@@ -1,4 +1,4 @@
-
+import Button from "../Common/Button"
 import "./Form.css"
 
 function Form(props) {
@@ -24,7 +24,7 @@ function Form(props) {
         <div className={`${props.number === "5" ? "itemContainer active" : "itemContainer"}`} onClick={handleClick}>5</div>
     </div>
     <div className='form-button'>
-        {props.number === 0 ? <button type='submit' disabled={true}>Submit</button> : <button type='submit'>Submit</button>}
+        {props.number === 0 ? <Button descript="Submit" type="submit" disabled="true" /> : <Button type='submit' descript="Submit"/>}
     </div>
    </form>
   )

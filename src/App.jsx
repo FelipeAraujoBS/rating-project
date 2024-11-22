@@ -10,7 +10,7 @@ function App() {
   
   return (
     <>
-     {pageState === 1 ? <Submit number={number} setNumber={setNumber} pageState={setPageState}/> : <Thanks number={number}/>}
+     {pageState === 1 ? <Submit number={number} setNumber={setNumber} pageState={setPageState}/> : <Thanks pageState={setPageState} number={number}/>}
     </>
   )
 }
